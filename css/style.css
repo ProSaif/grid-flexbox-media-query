@@ -3,28 +3,18 @@
   padding: 0;
 }
 
-.filled {
-  color: goldenrod;
-  font-size: 30px;
-}
-
-.unfilled {
-  color: gray;
-}
-
-.top-players,
-.blogs {
+.top-players, .blogs {
   display: grid;
   grid-gap: 30px;
   margin-top: 30px;
   place-items: center;
 }
 
-.top-players {
+.top-players{
   grid-template-columns: repeat(3, 1fr);
 }
 
-.blogs {
+.blogs{
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -33,17 +23,12 @@
   margin-right: 20px;
 }
 
-.course img {
-  height: 50px;
-}
-
 .thumbnail img {
   height: 200px;
   margin-right: 20px;
 }
 
-.player,
-.blog {
+.player, .blog {
   display: flex;
   align-items: center;
 }
@@ -69,7 +54,7 @@ main {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .blog {
+  .blog{
     display: block;
   }
 }
